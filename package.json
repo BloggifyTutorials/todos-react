@@ -1,7 +1,7 @@
 {
   "name": "todos-app-bloggify-react",
   "version": "1.0.0",
-  "description": "TODO app built with @Bloggify.",
+  "description": "TODO app built with @Bloggify and React.",
   "main": "bloggify.json",
   "scripts": {
     "start": "bloggify-prod-start",
@@ -26,22 +26,22 @@
     "bloggify/"
   ],
   "bugs": {
-    "url": "https://github.com/BloggifyTutorials/todos/issues"
+    "url": "https://github.com/BloggifyTutorials/todos-react/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BloggifyTutorials/todos.git"
+    "url": "git+https://github.com/BloggifyTutorials/todos-react.git"
   },
-  "homepage": "https://github.com/BloggifyTutorials/todos#readme",
+  "homepage": "https://github.com/BloggifyTutorials/todos-react#readme",
   "blah": {
     "title": "TODOs",
     "installation_command": {
       "content": [
         "# Clone this repository",
-        "git clone https://github.com/BloggifyTutorials/todos",
+        "git clone https://github.com/BloggifyTutorials/todos-react",
         "",
         "# Install the dependencies",
-        "cd todos && npm i",
+        "cd todos-react && npm i",
         "",
         "# Start the app in dev mode",
         "npm run start:dev"
