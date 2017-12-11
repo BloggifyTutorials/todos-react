@@ -1,7 +1,17 @@
 const { Todo } = Bloggify.models
 
 exports.add = todo => {
-    return new Todo(todo).save()
+    return new Promise((res, rej) => {
+        new Todo(todo).save((err, data) => {
+            if (err) {
+                if (err.name === "ValidationError") {
+                    err.status = 400
+                }
+                return rej(err)
+            }
+            res(res)
+        })
+    })
 }
 
 exports.toggle = _id => {

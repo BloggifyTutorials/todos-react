@@ -51,10 +51,14 @@
     "h_img": "https://i.imgur.com/PtZka5m.png"
   },
   "dependencies": {
-    "bloggify": "0.0.0-alpha28"
+    "bloggify": "0.0.0-alpha28",
+    "bloggify-mongoose": "^2.1.0",
+    "connect-mongo": "^2.0.0"
   },
   "devDependencies": {
     "bloggify-cli": "0.0.0-alpha28",
-    "obj2env-cli": "^1.0.4"
+    "obj2env-cli": "^1.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }

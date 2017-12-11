@@ -13,7 +13,7 @@ const redirect = (ctx, error) => {
 
 
 exports.list = () => {
-    return Todo.find()
+    return todos.list()
 }
 
 exports.add = ["post", ctx => {

@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="csrf-token" content="<%= ctx.csrfToken %>">
         <title>TODOs</title>
-        <%- Bloggify.assets.html() %>
+        <%- Bloggify.assets.cssHtml() %>
     </head>
     <body class="hack dark">
