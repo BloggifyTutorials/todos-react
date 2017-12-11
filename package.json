@@ -1,5 +1,5 @@
 {
-  "name": "todos-app-bloggify",
+  "name": "todos-app-bloggify-react",
   "version": "1.0.0",
   "description": "TODO app built with @Bloggify.",
   "main": "bloggify.json",
