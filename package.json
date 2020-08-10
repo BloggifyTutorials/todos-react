@@ -1,6 +1,6 @@
 {
   "name": "todos-app-bloggify-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TODO app built with @Bloggify and React.",
   "main": "bloggify.json",
   "scripts": {
